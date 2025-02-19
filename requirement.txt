@@ -1,0 +1,6 @@
+streamlit
+nltk
+newspaper3k
+textblob
+lxml
+lxml_html_clean
