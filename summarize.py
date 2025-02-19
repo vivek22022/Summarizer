@@ -11,7 +11,7 @@ def summarize():
             st.error("Please enter a valid URL")
             return
 
-        with st.spinner("Summarizing the article..."):
+        with st.spinner("Summarizing the article...."):
             try:
                 article = Article(url)
 
