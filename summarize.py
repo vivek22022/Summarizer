@@ -3,8 +3,6 @@ import nltk
 from textblob import TextBlob
 from newspaper import Article
 
-nltk.download('punkt')
-
 def summarize():
     url = st.text_input("Enter the URL of the news article")
 
