@@ -42,7 +42,7 @@ def summarize():
                 st.write(sentiment_text)
 
             except Exception as e:
-                st.error(f"Invalid URL")
+                st.error(f"Error occurred: {e}")
 
     st.markdown("<p style='text-align: center; font-size: 16px;'>👨‍💻 Made by <b>Vivek</b></p>", unsafe_allow_html=True)
 
